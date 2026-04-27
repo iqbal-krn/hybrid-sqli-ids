@@ -1,5 +1,6 @@
 import re
 import urllib.parse
+import pandas as pd
 
 def calculate_nfa_score(payload):
     """
