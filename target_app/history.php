@@ -2,7 +2,7 @@
 session_start();
 
 // Koneksi ke database
-$conn = new mysqli("localhost", "root", "041206", "sqli_demo");
+$conn = new mysqli("localhost", "root", "Iqbal20061125", "sqli_demo");
 
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
