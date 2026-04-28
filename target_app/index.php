@@ -4,7 +4,11 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // Koneksi ke database
+<<<<<<< HEAD
 $conn = new mysqli("localhost", "root", "Iqbal20061125", "sqli_demo");
+=======
+$conn = new mysqli("localhost", "root", "041206", "sqli_demo");
+>>>>>>> 2f4005d9fb5aed4d96072aeccff5705146122cd6
 
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
